@@ -2,21 +2,28 @@ body {
     text-align: center;
     color: black;
     margin: 0;
+    background-repeat: no-repeat;
 }
 table {
     border-collapse: collapse;
-    border: 1px solid black;
+    width: 100%;
     ;
 }
+th,td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;}
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 15;
+    padding: 5;
     overflow: hidden;
     background-color: black;
 }
 li {
-    float: left;
+    float: center;
 }
 li a, .dropbtn {
     display: inline-block;
@@ -65,6 +72,40 @@ li.dropdown {
     height: 330px;
     width: 250px;
 }
-.navCategory {
+.button {
+    display: inline-block;
+    padding: 10px 18px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: blue;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px whitesmoke;
+}
 
+.button:hover {background-color: red}
+
+.button:active {
+    background-color: royalblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+h1 {
+    text-shadow: 2px 2px black;
+}
+h2 {
+    text-shadow: 2px 2px black;
+}
+h3 {
+    text-shadow: 2px 2px black;
+}
+h4 {
+    text-shadow: 2px 2px 5px black;
+}
+h5 {
+    text-shadow: 2px 2px 5px black;
 }
